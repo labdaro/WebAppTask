@@ -3,6 +3,7 @@
 import java.io.IOException;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -20,15 +21,15 @@ public class viewSingle extends HttpServlet {
         String searchId = request.getParameter("searchId");
         dboperation operation = new dboperation();
         try {
-            ResultSet showSingle = operation.viewSingleRecord(searchId);
-            if(showSingle.next()== false){
+            ArrayList showSingle = operation.viewSingleRecord(searchId);
+            if(showSingle.isEmpty()){
                  request.setAttribute("error", "You doesn't have the data matching with input id .... Try Again");
                  RequestDispatcher d = request.getRequestDispatcher("viewSingle.jsp");
                 d.forward(request, response);
             }
-            while(showSingle.next()== true){
-                request.setAttribute("id",showSingle.getString("1"));
-                request.setAttribute("name",showSingle.getString("2"));
+            else{
+                request.setAttribute("id", showSingle.get(0));
+                request.setAttribute("name", showSingle.get(1));            
                 RequestDispatcher rs = request.getRequestDispatcher("viewSingle.jsp");
                 rs.forward(request, response);
             }
