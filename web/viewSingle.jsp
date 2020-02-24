@@ -26,8 +26,7 @@
             String id = (String) request.getAttribute("id");
             String name = (String) request.getAttribute("name");
             if(id != null && name != null){
-                out.print(id);
-                out.print(name);
+                out.print("id : "+id + " name : "+name);
             }                
         %>
         

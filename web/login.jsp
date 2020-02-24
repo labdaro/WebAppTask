@@ -15,7 +15,7 @@
     <body>
         <form method="post" action="loginServlet">
             Username: <input type="text" name="username" placeholder="username"><br>
-            Password: <input type="text" name="password" placeholder="password"><br>
+            Password: <input type="password" name="password" placeholder="password"><br>
             <input type="submit" name="btn" value="login">
             <input type="submit" name="btn" value="register">
         </form>
