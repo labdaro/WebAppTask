@@ -8,6 +8,10 @@
         <servlet-name>viewallrecord</servlet-name>
         <servlet-class>viewallrecord</servlet-class>
     </servlet>
+     <servlet>
+        <servlet-name>update</servlet-name>
+        <servlet-class>update</servlet-class>
+    </servlet>
     <servlet>
         <servlet-name>validate</servlet-name>
         <servlet-class>validate</servlet-class>
@@ -71,6 +75,10 @@
     <servlet-mapping>
         <servlet-name>viewSingle</servlet-name>
         <url-pattern>/viewSingle</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>update</servlet-name>
+        <url-pattern>/update</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
