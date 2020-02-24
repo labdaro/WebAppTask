@@ -63,11 +63,18 @@ public class dboperation {
     }
     
     
-    public boolean updataData(String id, String newUsername) throws ClassNotFoundException, SQLException{
+     public String updataData(String id, String newName) throws ClassNotFoundException, SQLException{
         getConnection();
         Statement s = con.createStatement();
-        s.executeUpdate("update  employee set username='"+ newUsername+"' where id='"+id+"' ");       
-        return true;
+        String sql = String.format("select id,name from employee where id ='%s'",id);       
+        ResultSet rs = s.executeQuery(sql);    
+        if(rs.next()==true){
+            String oldName= rs.getString("name");
+            String sqlUpdate = String.format("update employee set name='%s' where id = '%s'",newName,id);
+            s.executeUpdate(sqlUpdate);
+            return oldName;
+        }
+        return "false";
     }
 
     //Operation of ViewSingleRecord 
@@ -105,6 +112,18 @@ public class dboperation {
        Statement st = con.createStatement();
        ResultSet rs = st.executeQuery("select * from employee");
        return rs;
+   }
+   public boolean deleteRecord(String id) throws ClassNotFoundException, SQLException{
+       getConnection();
+       Statement st = con.createStatement();
+       ResultSet rs = st.executeQuery("select id from employee where id = '"+id+"'");
+       if(rs.next()){
+           String sql = String.format("delete from employee where id = '%s'",id);
+           st.execute(sql);
+           return true;
+       }
+       return false;
+       
    }
 
 
