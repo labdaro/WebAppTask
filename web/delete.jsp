@@ -23,5 +23,7 @@
         </form>
         
          <p class="status">${status}</p>
+         
+         <div><a href="home.jsp">Go to Home Page</a></div>
     </body>
 </html>

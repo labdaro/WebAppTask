@@ -22,6 +22,7 @@
             <input name="name" type="text" placeholder="Enter name">
             <input type="submit" value="insert">
         </form>
+        <a href="home.jsp">Go to Home Page</a>
         <p class="insert">${insertStatus}</p>
     </body>
 </html>

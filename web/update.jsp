@@ -31,7 +31,7 @@
                 <input type="text" name="name" placeholder="Input new name">
                 <input type="submit" value="update">
         </form>
-        
+        <a href="home.jsp">Go to Home Page</a>
               
           
         

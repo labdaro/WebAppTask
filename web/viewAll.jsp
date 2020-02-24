@@ -18,6 +18,7 @@
     </head>
     <body>
         <h1>View All</h1>
+        
 
         <%
 
@@ -30,5 +31,9 @@
           }
    
         %>
+        
+        <div>
+            <a href="home.jsp">Go to Home Page</a>
+        </div>
     </body>
 </html>

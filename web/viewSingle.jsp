@@ -30,5 +30,7 @@
                 out.print(name);
             }                
         %>
+        
+        <div><a href="home.jsp">Go to Home Page</a></div>
     </body>
 </html>

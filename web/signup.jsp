@@ -37,6 +37,9 @@
      
         
         </form>
+        
+        
+        <a href="home.jsp">Go to Home Page</a>
         <p class="checkuser">           
             <%  String show1 = (String) request.getAttribute("sameuser");
             if (show1 != null){
@@ -44,6 +47,8 @@
             }%>
         </p>
         <p class="checkError">${error}</p>
+        
+        
             
      
     </body>
