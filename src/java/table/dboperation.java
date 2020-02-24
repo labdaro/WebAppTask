@@ -78,20 +78,21 @@ public class dboperation {
     }
 
     //Operation of ViewSingleRecord 
-   public ResultSet viewSingleRecord(String id) throws ClassNotFoundException, SQLException{
+   public ArrayList viewSingleRecord(String id) throws ClassNotFoundException, SQLException{
             getConnection();
             Statement s = con.createStatement();
+            ArrayList<String> list = new ArrayList();
             System.out.println(id);
             String sql = String.format("select * from employee where id = '%s'", id);
             ResultSet showSingleRecord = s.executeQuery(sql);
-            System.out.println(showSingleRecord.next());
-//            while(showSingleRecord.next()){
-//                String sid = showSingleRecord.getString("1");
-//                String sname = showSingleRecord.getString("2");
-//                System.out.println(sid);
-//                System.out.println(sname);
-//            }
-        return showSingleRecord;
+            
+            while(showSingleRecord.next()){
+                String sid = showSingleRecord.getString("id");
+                String sname = showSingleRecord.getString("name");
+                   list.add(sid);
+                   list.add(sname);
+            }
+        return list;
     }
    
    //Validate login
