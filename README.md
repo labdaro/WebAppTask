@@ -10,7 +10,7 @@
     - attributes in employee:
         + id       varchar(200)
         + name     varchar(200)
-        + country  varchar(200)
+        
 
 
         = === ==== =============================
