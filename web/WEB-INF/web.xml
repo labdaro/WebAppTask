@@ -41,13 +41,12 @@
         <servlet-class>viewSingle</servlet-class>
     </servlet>
     <servlet>
-<<<<<<< HEAD
         <servlet-name>InsertServlet</servlet-name>
         <servlet-class>InsertServlet</servlet-class>
-=======
+    </servlet>
+    <servlet>
         <servlet-name>deleteServlet</servlet-name>
         <servlet-class>deleteServlet</servlet-class>
->>>>>>> c42a45e4e569cad8c9bb6d8397b64c4bb9cf217f
     </servlet>
     <servlet-mapping>
         <servlet-name>register</servlet-name>
@@ -86,17 +85,16 @@
         <url-pattern>/viewSingle</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
-<<<<<<< HEAD
-        <servlet-name>InsertServlet</servlet-name>
+         <servlet-name>InsertServlet</servlet-name>
         <url-pattern>/InsertServlet</url-pattern>
-=======
+    </servlet-mapping>
+    <servlet-mapping>
         <servlet-name>update</servlet-name>
         <url-pattern>/update</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>deleteServlet</servlet-name>
         <url-pattern>/deleteServlet</url-pattern>
->>>>>>> c42a45e4e569cad8c9bb6d8397b64c4bb9cf217f
     </servlet-mapping>
     <session-config>
         <session-timeout>
