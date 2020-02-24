@@ -36,6 +36,10 @@
         <servlet-name>viewSingle</servlet-name>
         <servlet-class>viewSingle</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>deleteServlet</servlet-name>
+        <servlet-class>deleteServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>register</servlet-name>
         <url-pattern>/register</url-pattern>
@@ -71,6 +75,10 @@
     <servlet-mapping>
         <servlet-name>viewSingle</servlet-name>
         <url-pattern>/viewSingle</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>deleteServlet</servlet-name>
+        <url-pattern>/deleteServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

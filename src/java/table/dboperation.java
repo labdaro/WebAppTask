@@ -97,6 +97,18 @@ public class dboperation {
        ResultSet rs = st.executeQuery("select * from employee");
        return rs;
    }
+   public boolean deleteRecord(String id) throws ClassNotFoundException, SQLException{
+       getConnection();
+       Statement st = con.createStatement();
+       ResultSet rs = st.executeQuery("select id from employee where id = '"+id+"'");
+       if(rs.next()){
+           String sql = String.format("delete from employee where id = '%s'",id);
+           st.execute(sql);
+           return true;
+       }
+       return false;
+       
+   }
 
 
 }
