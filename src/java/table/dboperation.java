@@ -27,6 +27,15 @@ public class dboperation {
         return con;
     }
     
+    public boolean insertData(employee em) throws SQLException, ClassNotFoundException {
+        getConnection();
+        PreparedStatement ps = con.prepareStatement("insert into employee values(?,?,?,?)");
+        ps.setString(1, em.getId());
+        ps.setString(2, em.getName());
+        ps.execute();
+        return true;
+    }
+     
      //operation for insert into database
     public boolean insertRegisterFrom(register s) throws ClassNotFoundException, SQLException{
             getConnection();
