@@ -125,6 +125,13 @@ public class dboperation {
        return false;
        
    }
+   public boolean insertRecord(String id, String name) throws ClassNotFoundException, SQLException{
+       getConnection();
+       Statement st = con.createStatement();
+       String sql = String.format("insert into employee values('%s','%s')",id,name);
+       st.execute(sql);
+       return true;
+   }
 
 
 }

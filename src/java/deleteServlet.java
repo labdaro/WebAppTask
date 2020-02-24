@@ -28,12 +28,11 @@ public class deleteServlet extends HttpServlet {
             if(delete==true){
                 request.setAttribute("status", "delete record successfully...");
                 request.getRequestDispatcher("delete.jsp").forward(request, response);
-                response.sendRedirect("delete.jsp");
+                
             }
             else{
                 request.setAttribute("status", "id does not exist...");
                 request.getRequestDispatcher("delete.jsp").forward(request, response);
-                response.sendRedirect("delete.jsp");
             };
         } catch (ClassNotFoundException | SQLException ex) {System.out.println(ex);} 
         

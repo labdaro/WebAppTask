@@ -9,9 +9,19 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Insert Page</title>
+        <style>
+            .insert{
+                color : limegreen;    
+            }
+        </style>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <form action="InsertServlet" method="post">
+            <input name="id" type="text" placeholder="Enter id">
+            <input name="name" type="text" placeholder="Enter name">
+            <input type="submit" value="insert">
+        </form>
+        <p class="insert">${insertStatus}</p>
     </body>
 </html>
