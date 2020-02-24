@@ -54,11 +54,18 @@ public class dboperation {
     }
     
     
-    public boolean updataData(String id, String newUsername) throws ClassNotFoundException, SQLException{
+     public String updataData(String id, String newName) throws ClassNotFoundException, SQLException{
         getConnection();
         Statement s = con.createStatement();
-        s.executeUpdate("update  employee set username='"+ newUsername+"' where id='"+id+"' ");       
-        return true;
+        String sql = String.format("select id,name from employee where id ='%s'",id);       
+        ResultSet rs = s.executeQuery(sql);    
+        if(rs.next()==true){
+            String oldName= rs.getString("name");
+            String sqlUpdate = String.format("update employee set name='%s' where id = '%s'",newName,id);
+            s.executeUpdate(sqlUpdate);
+            return oldName;
+        }
+        return "false";
     }
 
     //Operation of ViewSingleRecord 

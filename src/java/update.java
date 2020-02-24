@@ -33,7 +33,7 @@ public class update extends HttpServlet {
             String check = data.updataData(id, name);
             if(check.equals("false")){
                 
-               req.setAttribute("error", "You don't have id matching with your input....");
+               req.setAttribute("fail", "You don't have id matching with your input....");
                RequestDispatcher rd =  req.getRequestDispatcher("update.jsp");
                rd.forward(req, resp);
 //                                       

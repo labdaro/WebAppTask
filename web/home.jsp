@@ -23,8 +23,12 @@
         </form>
         
         
-         <form action="viewSingle.jsp" method="post">
+        <form action="viewSingle.jsp" method="post">
             <input type="submit" value="View">
+        </form>
+        
+        <form action="update.jsp" method="post">
+            <input type="submit" value="Update">
         </form>
         
         

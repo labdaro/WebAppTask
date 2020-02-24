@@ -16,10 +16,16 @@
                 color:limegreen;
             }
             
+            .fail{
+                color:red;
+            }
+            
         </style>
     </head>
     <body>
         <h1 class="error">${error}</h1>
+        <h1 class="fail">${fail}</h1>
+        
         <form action="update" method="post">
                 <input type="text" name="id" placeholder="Input the id">
                 <input type="text" name="name" placeholder="Input new name">
