@@ -32,6 +32,14 @@
         </form>
         
         
+        <form action="insert.jsp" method="post">
+            <input type="submit" value="Insert Data">
+        </form>
+        
+        <form action="delete.jsp" method="post">
+            <input type="submit" value="Delete Data">
+        </form>
+        
         
         
         
