@@ -61,8 +61,8 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             <!-- Brand -->
-            <a class="navbar-brand pt-0" href="./index.html">
-              <img src="assets/img/team/tevy.jpg" class="navbar-brand-img" alt="...">
+            <a class="navbar-brand pt-0" href="home.jsp">
+              <img src="assets/img/brand/a-force.png" class="navbar-brand-img" alt="...">
             </a>
             <!-- User -->
             <ul class="nav align-items-center d-md-none">
@@ -147,37 +147,37 @@
               <ul class="navbar-nav">
                 <li class="nav-item  active ">
                   <a class="nav-link  active " href="home.jsp">
-                    <i class="ni ni-tv-2 text-primary"></i> About Us
+                    <i class="ni ni-tv-2 text-orange    "></i> About Us
                   </a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link " href="insert.jsp">
-                    <i class="ni ni-planet text-blue"></i> Insert Data
+                    <i class="ni ni-send text-orange"></i> Insert Data
                   </a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link " href="update.jsp">
-                    <i class="ni ni-pin-3 text-orange"></i> Update data
+                    <i class="ni ni-check-bold text-orange"></i> Update data
                   </a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link " href="delete.jsp">
-                    <i class="ni ni-pin-3 text-orange"></i> Delete data
+                    <i class="ni ni-basket text-orange"></i> Delete data
                   </a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link " href="viewSingle.jsp">
-                    <i class="ni ni-pin-3 text-orange"></i> View data
+                    <i class="ni ni-chart-bar-32 text-orange"></i> View data
                   </a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link " href="viewAll.jsp">
-                    <i class="ni ni-pin-3 text-orange"></i> View all data
+                    <i class="ni ni-chart-pie-35 text-orange"></i> View all data
                   </a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link " href="/logoutServlet" name="btn">
-                    <i class="ni ni-pin-3 text-orange"></i> Log Out
+                    <i class="ni ni-user-run text-orange"></i> Log Out
                   </a>
                 </li>
               </ul>
@@ -191,7 +191,7 @@
           <nav class="navbar navbar-top navbar-expand-md navbar-dark" id="navbar-main">
             <div class="container-fluid">
               <!-- Brand -->
-              <a class="h4 mb-0 text-white text-uppercase d-none d-lg-inline-block" href="./index.html">Dashboard</a>
+              <a style="font-size: 24px" class="h4 mb-0 text-white text-uppercase d-none d-lg-inline-block" href="home.jsp">Dashboard</a>
               <!-- Form -->
               <form class="navbar-search navbar-search-dark form-inline mr-3 d-none d-md-flex ml-lg-auto">
                 <div class="form-group mb-0">
@@ -256,8 +256,8 @@
             <div class="container">
               <div class="row mb-5">
                 <div class="col-lg-7 text-left">
-                  <h2 class="section-title mb-3" style="color: red;s">Meet Our Team</h2>
-                  <p class="lead"> Get to know us more</p>
+                  <h2 class="section-title mb-3" style="color: red; font-size: 28px">Meet Our Awesome Developers</h2>
+                  <p class="lead">Yes, we are a bunch of weirdos.</p>
                 </div>
               </div>
               <div class="row">

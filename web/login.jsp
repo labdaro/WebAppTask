@@ -56,12 +56,12 @@
                     </div>
                     <!-- Navbar items -->
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
+<!--                        <li class="nav-item">
                             <a class="nav-link nav-link-icon" href="../index.html">
                                 <i class="ni ni-planet"></i>
                                 <span class="nav-link-inner--text">Dashboard</span>
                             </a>
-                        </li>
+                        </li>-->
                         <li class="nav-item">
                             <a class="nav-link nav-link-icon" href="../examples/register.html">
                                 <i class="ni ni-circle-08"></i>
@@ -74,18 +74,19 @@
                                 <span class="nav-link-inner--text">Login</span>
                             </a>
                         </li>
-                        <li class="nav-item">
+<!--                        <li class="nav-item">
                             <a class="nav-link nav-link-icon" href="../examples/profile.html">
                                 <i class="ni ni-single-02"></i>
                                 <span class="nav-link-inner--text">Profile</span>
                             </a>
-                        </li>
+                        </li>-->
                     </ul>
                 </div>
             </div>
         </nav>
         <!-- Header -->
-        <div class="header bg-gradient-primary py-7 py-lg-8">
+        <div class="header bg-gradient-info py-7 py-lg-8">
+            <image src="assets/img/brand/a-force.png" style="max-width: 1280px; max-height: 720px; display: block; margin-right: auto; margin-left: auto; min-width: 352px; min-width: 240px"/>
             <div class="container">
                 <div class="header-body text-center mb-7">
                     <div class="row justify-content-center">
@@ -159,7 +160,7 @@
                             <a href="#" class="text-light"><small>Forgot password?</small></a>
                         </div>
                         <div class="col-6 text-right">
-                            <a href="#" class="text-light"><small>Create new account</small></a>
+                            <a href="signup.jsp" class="text-light"><small>Create new account</small></a>
                         </div>
                     </div>
                 </div>
