@@ -261,91 +261,91 @@
                 </div>
               </div>
               <div class="row">
-                <div class="col-md-6 col-lg-3 mb-4">
-                  <div style="text-align: center;">
-                    <figure>
-                      <img src="assets/img/team/tvv.jpg" alt="Image" class="img-fluid">
-                    </figure>
-                    <div class="p-2">
-                      <h3>Chhy Sokuntevy</h3>
-                      <span class="position">Cheer XD</span>
-                    </div>
-                  </div>
-                </div>
+          <div class="col-md-6 col-lg-3 mb-4">
+            <div style="text-align: center;">
+              <figure>
+                <img src="assets/img/team/tvv.png" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-2">
+                <h3>Kab All</h3>
+                <span class="position">merl merl ng jong mex?</span>
+              </div>
+            </div>
+          </div>
 
-                <div class="col-md-6 col-lg-3 mb-4">
-                  <div class="team-member">
-                    <figure>
-                      <img src="assets/img/team/pwan.jpg" alt="Image" class="img-fluid">
-                    </figure>
-                    <div class="p-2">
-                      <h3>Nhim Sovichea</h3>
-                      <span class="position">cutie</span>
-                    </div>
-                  </div>
-                </div>
+          <div class="col-md-6 col-lg-3 mb-4">
+            <div class="team-member">
+              <figure>
+                <img src="assets/img/team/.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-2">
+                <h3>The mighty god</h3>
+                <span class="position">Netflix and chill? Nah, we got hentai with senpai ><</span>
+              </div>
+            </div>
+          </div>
 
-                <div class="col-md-6 col-lg-3 mb-4">
-                  <div class="team-member">
-                    <figure>
-                      <img src="assets/img/team/pnha.jpg" alt="Image" class="img-fluid">
-                    </figure>
+          <div class="col-md-6 col-lg-3 mb-4">
+            <div class="team-member">
+              <figure>
+                <img src="assets/img/team/nony.jpg" alt="Image" class="img-fluid">
+              </figure>
 
-                    <div class="p-2">
-                      <h3>Kosal Sotherny</h3>
-                      <span class="position">knekmfel</span>
-                    </div>
-                  </div>
-                </div>
+              <div class="p-2">
+                <h3>Nony</h3>
+                <span class="position">ពិស as always</span>
+              </div>
+            </div>
+          </div>
 
-                <div class="col-md-6 col-lg-3 mb-4">
-                  <div class="team-member">
-                    <figure>
-                      <img src="assets/img/team/mey.jpg" alt="Image" class="img-fluid">
-                    </figure>
-                    <div class="p-2">
-                      <h3>Kim Theara</h3>
-                      <span class="position">Chief Business Officer</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                <div class="col-md-6 col-lg-3 mb-4">
-                  <div class="team-member">
-                    <figure>
-                      <img src="assets/img/team/tevy.jpg" alt="Image" class="img-fluid">
-                    </figure>
-                    <div class="p-2">
-                      <h3>Lab Daro</h3>
-                      <span class="position">nnmkm</span>
-                    </div>
-                  </div>
-                </div>
+          <div class="col-md-6 col-lg-3 mb-4">
+            <div class="team-member">
+              <figure>
+                <img src="assets/img/team/theara.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-2">
+                <h3>Romdoul</h3>
+                <span class="position">Nhom Slanh oun jeang ke</span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+          <div class="col-md-6 col-lg-3 mb-4">
+            <div class="team-member">
+              <figure>
+                <img src="assets/img/team/daro.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-2">
+                <h3>B6C AhJaZin</h3>
+                <span class="position">Nhom ah toch </span>
+              </div>
+            </div>
+          </div>
 
-                <div class="col-md-6 col-lg-3 mb-4">
-                  <div class="team-member">
-                    <figure>
-                      <img src="assets/img/team/pwan.jpg" alt="Image" class="img-fluid">
-                    </figure>
-                    <div class="p-2">
-                      <h3>Chrea Chanchhunneng</h3>
-                      <span class="position">Chief Technology Officer </span>
-                    </div>
-                  </div>
-                </div>
+          <div class="col-md-6 col-lg-3 mb-4">
+            <div class="team-member">
+              <figure>
+                <img src="assets/img/team/cn.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-2">
+                <h3>D*g Of THE HeLl</h3>
+                <span class="position">All of my Hearts is For Every Girls :'(</span>
+              </div>
+            </div>
+          </div>
 
-                <div class="col-md-6 col-lg-3 mb-4">
-                  <div class="team-member">
-                    <figure>
-                      <img src="assets/img/team/pnha.jpg" alt="Image" class="img-fluid">
-                    </figure>
+          <div class="col-md-6 col-lg-3 mb-4">
+            <div class="team-member">
+              <figure>
+                <img src="assets/img/team/thirak.jpg" alt="Image" class="img-fluid">
+              </figure>
 
-                    <div class="p-2">
-                      <h3>Prom Suthirak</h3>
-                      <span class="position">Chief Digital Officer</span>
-                    </div>
-                  </div>
-                </div>
+              <div class="p-2">
+                <h3>Jin Jason</h3>
+                <span class="position">ពិបាកចិត្តណាស់ពួកម៉ាកបបួលផឹករហូត</span>
+              </div>
+            </div>
+          </div>
 
 
             </div>
