@@ -1115,8 +1115,8 @@ pre code {
   }
 
   .col-md-6 {
-    flex: 0 0 50%;
-    max-width: 50%;
+    flex: 0 0 100%;
+    max-width: 100%;
   }
 
   .col-md-7 {
@@ -15560,9 +15560,7 @@ a.btn-icon-only {
   padding: 2.5em 0; }
   @media (min-width: 768px) {
     .site-section {
-      padding: 5em 0; } }
-  .site-section.site-section-sm {
-    padding: 4em 0; }
+      padding: 6em 0; } }
 
 .main-content .navbar-top {
   position: absolute;
@@ -20703,7 +20701,8 @@ pre>code.highlight {
 {
   padding: 10%;
   margin:10%;
-  height: 10px;
+  height: 10px
+  width:100%;
 }
 .container-fluid {
   width: 100%;
