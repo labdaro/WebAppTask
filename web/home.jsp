@@ -264,7 +264,7 @@
                 <div class="col-md-6 col-lg-3 mb-4">
                   <div style="text-align: center;">
                     <figure>
-                      <img src="assets/img/team/tevy.jpg" alt="Image" class="img-fluid">
+                      <img src="assets/img/team/tvv.jpg" alt="Image" class="img-fluid">
                     </figure>
                     <div class="p-2">
                       <h3>Chhy Sokuntevy</h3>
