@@ -209,10 +209,10 @@
                   <a class="nav-link pr-0" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <div class="media align-items-center">
                       <span class="avatar avatar-sm rounded-circle">
-                        <img alt="Image placeholder" src="assets/img/team/tevy.jpg">
+                        <img alt="Image placeholder" src="assets/img/brand/a-force-logo.png">
                       </span>
                       <div class="media-body ml-2 d-none d-lg-block">
-                        <span class="mb-0 text-sm  font-weight-bold">Tevy</span>
+                        <span class="mb-0 text-sm  font-weight-bold">Group A</span>
                       </div>
                     </div>
                   </a>

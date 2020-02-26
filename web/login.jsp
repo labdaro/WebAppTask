@@ -26,7 +26,7 @@
         <!-- CSS Files -->
         <link href="assets/css/argon-dashboard.css?v=1.1.2" rel="stylesheet" />
     </head>
-    <body class="bg-default">
+    <body class="bg-gradient-dark">
     <div class="main-content">
         <!-- Navbar -->
         <nav class="navbar navbar-top navbar-horizontal navbar-expand-md navbar-dark">
@@ -85,7 +85,7 @@
             </div>
         </nav>
         <!-- Header -->
-        <div class="header bg-gradient-info py-7 py-lg-8">
+        <div class="header bg-gradient-default py-7 py-lg-8">
             <image src="assets/img/brand/a-force.png" style="max-width: 1280px; max-height: 720px; display: block; margin-right: auto; margin-left: auto; min-width: 352px; min-width: 240px"/>
             <div class="container">
                 <div class="header-body text-center mb-7">

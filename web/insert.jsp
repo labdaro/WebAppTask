@@ -147,7 +147,7 @@
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link " href="/logoutServlet" name="btn">
+                  <a class="nav-link " href="login.jsp" name="btn">
                     <i class="ni ni-user-run text-orange"></i> Log Out
                   </a>
                 </li>
@@ -178,10 +178,10 @@
                 <a class="nav-link pr-0" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   <div class="media align-items-center">
                     <span class="avatar avatar-sm rounded-circle">
-                      <img alt="Image placeholder" src="assets/img/team/tevy.jpg">
+                      <img alt="Image placeholder" src="assets/img/brand/a-force-logo.png">
                     </span>
                     <div class="media-body ml-2 d-none d-lg-block">
-                      <span class="mb-0 text-sm  font-weight-bold">Tevy Chhy</span>
+                      <span class="mb-0 text-sm  font-weight-bold">Group A</span>
                     </div>
                   </div>
                 </a>
@@ -227,7 +227,7 @@
                     </div>
                 </div>
                 <div class="row col-md-6 col-lg-3 mb-4 text-center" style="justify-content: center;">
-                    <form method="post" >
+                    <form method="post" action="InsertServlet">
                         <input type="text" name="id" class="inputbox" align="center" placeholder="Enter ID">
                         <input type="text" name="name" class="inputbox" placeholder="Enter name">
                           <input type="submit" value="Insert Data" class="btn btn-info">
@@ -235,7 +235,7 @@
                   </div>
             </div>
             <div class="row col-md-6 col-lg-3 mb-4 text-center" style="display: inline-block; margin-left: 400px">
-               <p>Hello World</p>
+               <p class="insert">${insertStatus}</p>
             </div>
           </div>
         </div>

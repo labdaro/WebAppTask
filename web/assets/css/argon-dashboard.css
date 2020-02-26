@@ -13455,7 +13455,7 @@ button.bg-lighter:focus {
 }
 
 .bg-gradient-primary {
-  background: linear-gradient(30deg, #5e72e4 0, #09D8EE 100%) !important;
+  background: linear-gradient(87deg, #5e72e4 0, #09D8EE 100%) !important;
 }
 
 .bg-gradient-secondary {
@@ -13487,7 +13487,7 @@ button.bg-lighter:focus {
 }
 
 .bg-gradient-default {
-  background: linear-gradient(87deg, #172b4d 0, #1a174d 100%) !important;
+  background: linear-gradient(87deg, #212229 0, #1a174d 100%) !important;
 }
 
 .bg-gradient-white {
