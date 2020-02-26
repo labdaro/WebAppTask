@@ -3,7 +3,6 @@
     Created on : Feb 24, 2020, 7:40:53 PM
     Author     : jinjason
 --%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -45,7 +44,7 @@
           </button>
           <!-- Brand -->
           <a class="navbar-brand pt-0" href="../index.html">
-            <img src="assets/img/brand/blue.png" class="navbar-brand-img" alt="...">
+            <img src="assets/img/brand/a-force.png" class="navbar-brand-img" alt="...">
           </a>
           <!-- User -->
           <ul class="nav align-items-center d-md-none">
@@ -117,13 +116,13 @@
             </div>
             <!-- Navigation -->
               <ul class="navbar-nav">
-                <li class="nav-item  active ">
-                  <a class="nav-link  active " href="home.jsp">
+                <li class="nav-item">
+                  <a class="nav-link" href="home.jsp">
                     <i class="ni ni-tv-2 text-orange    "></i> About Us
                   </a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link " href="insert.jsp">
+                <li class="nav-item  active ">
+                  <a class="nav-link active " href="insert.jsp">
                     <i class="ni ni-send text-orange"></i> Insert Data
                   </a>
                 </li>
