@@ -222,7 +222,7 @@
           <div class="site-section" style="background-color: white" id="training-section">
             <div class="container text-center" style="display: inline-block; margin-left: 420px">
                 <div style="text-align: center;">
-                    <div class="col-lg-7 text-left">
+                    <div class="col-lg-7 text-left" style="margin-left: 20px">
                         <h2 class="section-title mb-3" style="color: red; font-size: 28px">Data Insertion</h2>
                         <h3 class="lead"> Insert Your Id and Name</h3>
                     </div>
