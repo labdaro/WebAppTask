@@ -230,7 +230,7 @@
                     <form method="post" action="InsertServlet">
                         <input type="text" name="id" class="inputbox" align="center" placeholder="Enter ID">
                         <input type="text" name="name" class="inputbox" placeholder="Enter name">
-                          <input type="submit" value="Update Data" class="btn btn-info">
+                          <input type="submit" value="Insert Data" class="btn btn-info">
                     </form>
                   </div>
             </div>
