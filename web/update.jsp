@@ -236,8 +236,8 @@
                 </div>
                 <div class="row col-md-6 col-lg-3 mb-4 text-center" style="justify-content: center;">
                     <form method="post" action="update">
-                        <input type="text" name="id" class="inputbox" align="center" placeholder="Enter ID">
-                        <input type="text" name="name" class="inputbox" placeholder="Enter new name">
+                        <input type="text" name="id" class="inputbox" align="center" placeholder="Enter ID" required>
+                        <input type="text" name="name" class="inputbox" placeholder="Enter new name" required>
                           <input type="submit" value="Update Data" class="btn btn-info">
                     </form>
                   </div>

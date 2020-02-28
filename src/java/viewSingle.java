@@ -19,6 +19,7 @@ public class viewSingle extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String searchId = request.getParameter("searchId");
+        System.out.println(searchId);
         dboperation operation = new dboperation();
         try {
             ArrayList showSingle = operation.viewSingleRecord(searchId);

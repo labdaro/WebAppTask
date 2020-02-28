@@ -122,8 +122,8 @@
                     <i class="ni ni-tv-2 text-orange    "></i> About Us
                   </a>
                 </li>
-                <li class="nav-item  active ">
-                  <a class="nav-link active " href="insert.jsp">
+                <li class="nav-item">
+                  <a class="nav-link" href="insert.jsp">
                     <i class="ni ni-send text-orange"></i> Insert Data
                   </a>
                 </li>
@@ -142,8 +142,8 @@
                     <i class="ni ni-chart-bar-32 text-orange"></i> View data
                   </a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link " href="viewAll.jsp">
+                <li class="nav-item active">
+                  <a class="nav-link active" href="viewAll.jsp">
                     <i class="ni ni-chart-pie-35 text-orange"></i> View all data
                   </a>
                 </li>
@@ -223,27 +223,22 @@
             <div class="container text-center" style="display: inline-block; margin-left: 420px">
                 <div style="text-align: center;">
                     <div class="col-lg-7 text-left" style="margin-left: 20px">
-                        <h2 class="section-title mb-3" style="color: red; font-size: 28px">Data Insertion</h2>
-                        <h3 class="lead"> Insert Your Id and Name</h3>
+                        <h2 class="section-title mb-3" style="color: red; font-size: 28px">View All the Data</h2>
                     </div>
                 </div>
                 <div class="row col-md-6 col-lg-3 mb-4 text-center" style="justify-content: center;">
-                    <form>
-                        <input type="text" name="id" class="inputbox" align="center" placeholder="Enter ID">
-                        <input type="text" name="name" class="inputbox" placeholder="Enter name">
-                          <input type="submit" value="Insert Data" class="btn btn-info">
-                    </form>
+                    <%
+                        dboperation dbop = new dboperation();
+                        ResultSet rs = dbop.viewAllRecord();
+                        while(rs.next()){
+                            String id = rs.getString(1);
+                            String name = rs.getString(2);
+                            out.println("<tr><td>"+id+"</td> <td>"+name+"</td></tr><br></br>");
+                        }
+                    %>
                   </div>
             </div>
-            <%
-                dboperation dbop = new dboperation();
-                ResultSet rs = dbop.viewAllRecord();
-                while(rs.next()){
-                    String id = rs.getString(1);
-                    String name = rs.getString(2);
-                    out.println("<tr><td>"+id+"</td> <td> "+name+"</td></tr><br>");
-                }
-            %>
+            
             <div class="row col-md-6 col-lg-3 mb-4 text-center" style="display: inline-block; margin-left: 400px">
                <p class="insert">${insertStatus}</p>
             </div>

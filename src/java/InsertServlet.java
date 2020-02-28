@@ -25,6 +25,10 @@ public class InsertServlet extends HttpServlet {
             throws ServletException, IOException {
         String id = request.getParameter("id");
         String name = request.getParameter("name");
+        if(name==null && id==null){
+            request.setAttribute("error", "You must fill each column");
+            request.getRequestDispatcher("insert.jsp").forward(request, response);
+        }
         dboperation dbop = new dboperation();
         try {
             boolean insertStatus = dbop.insertRecord(id,name);

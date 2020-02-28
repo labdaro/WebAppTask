@@ -228,14 +228,15 @@
                 </div>
                 <div class="row col-md-6 col-lg-3 mb-4 text-center" style="justify-content: center;">
                     <form method="post" action="InsertServlet">
-                        <input type="text" name="id" class="inputbox" align="center" placeholder="Enter ID">
-                        <input type="text" name="name" class="inputbox" placeholder="Enter name">
+                        <input type="text" name="id" class="inputbox" align="center" placeholder="Enter ID" required>
+                        <input type="text" name="name" class="inputbox" placeholder="Enter name" required>
                           <input type="submit" value="Insert Data" class="btn btn-info">
                     </form>
                   </div>
             </div>
             <div class="row col-md-6 col-lg-3 mb-4 text-center" style="display: inline-block; margin-left: 400px">
                <p class="insert">${insertStatus}</p>
+               <p style="color: red">${error}</p>
             </div>
           </div>
         </div>

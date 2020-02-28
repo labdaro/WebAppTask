@@ -125,7 +125,7 @@
                             <div class="text-center text-muted mb-4">
                                 <small>Or sign in with credentials</small>
                             </div>
-                            <form role="form" method="post" action="loginServlet">
+                            <form role="form" method="post" action="home.jsp">
                                 <div class="form-group mb-3">
                                     <div class="input-group input-group-alternative">
                                         <div class="input-group-prepend">

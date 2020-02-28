@@ -35,14 +35,6 @@
         
         <p class="error">${error}</p>
         
-        <%
-            String id = (String) request.getAttribute("id");
-            String name = (String) request.getAttribute("name");
-            if(id != null && name != null){
-                out.print("id : "+id + " name : "+name);
-            }                
-        %>
-        
         <div><a href="home.jsp">Go to Home Page</a></div>
     </body>-->
         <body class="">
@@ -131,8 +123,8 @@
                     <i class="ni ni-tv-2 text-orange    "></i> About Us
                   </a>
                 </li>
-                <li class="nav-item  active ">
-                  <a class="nav-link active " href="insert.jsp">
+                <li class="nav-item">
+                  <a class="nav-link" href="insert.jsp">
                     <i class="ni ni-send text-orange"></i> Insert Data
                   </a>
                 </li>
@@ -146,8 +138,8 @@
                     <i class="ni ni-basket text-orange"></i> Delete data
                   </a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link " href="viewSingle.jsp">
+                <li class="nav-item active">
+                  <a class="nav-link active" href="viewSingle.jsp">
                     <i class="ni ni-chart-bar-32 text-orange"></i> View data
                   </a>
                 </li>
@@ -237,15 +229,22 @@
                     </div>
                 </div>
                 <div class="row col-md-6 col-lg-3 mb-4 text-center" style="justify-content: center;">
-                    <form method="post" action="InsertServlet">
-                        <input type="text" name="id" class="inputbox" align="center" placeholder="Enter ID">
-                        
-                          <input type="submit" value="Insert Data" class="btn btn-info">
+                    <form method="post" action="viewSingle">
+                        <input type="text" name="searchId" class="inputbox" align="center" placeholder="Enter ID">
+                        <input type="submit" value="View Data" class="btn btn-info">
                     </form>
-                  </div>
-            </div>
-            <div class="row col-md-6 col-lg-3 mb-4 text-center" style="display: inline-block; margin-left: 400px">
-               <p class="insert">${insertStatus}</p>
+                    </br>  
+                    <p style="color: red">${error}</p>
+                    <%
+                        String id = (String) request.getAttribute("id");
+                        String name = (String) request.getAttribute("name");
+                        if(id != null && name != null){
+                            out.print("</br>");
+                            out.print("id : "+id + " name : "+name);
+                        }                
+                    %>
+                </div>
+                
             </div>
           </div>
         </div>
