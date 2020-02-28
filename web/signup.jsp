@@ -22,7 +22,7 @@
             Argon Dashboard - Free Dashboard for Bootstrap 4 by Creative Tim
         </title>
         <!-- Favicon -->
-        <link href="assets/img/brand/favicon.png" rel="icon" type="image/png">
+        <link href="assets/img/brand/a-force-logo.png" rel="icon" type="image/png">
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
         <!-- Icons -->
@@ -103,13 +103,13 @@
                                 </a>
                             </li>-->
                             <li class="nav-item">
-                                <a class="nav-link nav-link-icon" href="../examples/register.html">
+                                <a class="nav-link nav-link-icon" href="signup.jsp">
                                     <i class="ni ni-circle-08"></i>
                                     <span class="nav-link-inner--text">Register</span>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link nav-link-icon" href="../examples/login.html">
+                                <a class="nav-link nav-link-icon" href="login.jsp">
                                     <i class="ni ni-key-25"></i>
                                     <span class="nav-link-inner--text">Login</span>
                                 </a>
@@ -218,7 +218,8 @@
                                     </div>-->
                                     <div class="text-center">
                                         <input type="submit" name="btn" class="btn btn-primary my-4" value="Sign Up"/>
-                                    </div
+                                    </div>
+                                </form>
                             </div>
                         </div>
 <!--                        <div class="row mt-3">

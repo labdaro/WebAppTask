@@ -38,7 +38,7 @@ public class update extends HttpServlet {
                rd.forward(req, resp);
 //                                       
             }else{
-               String message = String.format("You update Name: %s to New Name: %s ", check,name);
+               String message = String.format("You update %s to %s", check,name);
                req.setAttribute("error", message);
                RequestDispatcher rd =  req.getRequestDispatcher("update.jsp");
                rd.forward(req, resp); 

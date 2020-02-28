@@ -15,7 +15,7 @@
           A-Force Database
         </title>
         <!-- Favicon -->
-        <link href="assets/img/brand/favicon.png" rel="icon" type="image/png">
+        <link href="assets/img/brand/a-force-logo.png" rel="icon" type="image/png">
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
         <!-- Icons -->
@@ -317,7 +317,7 @@
               </figure>
               <div class="p-2">
                 <h3>B6C AhJaZin</h3>
-                <span class="position">Nhom ah toch </span>
+                <span class="position">Nhom Boros Smos Sneh </span>
               </div>
             </div>
           </div>

@@ -12,7 +12,7 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <!-- Favicon -->
-        <link href="assets/img/brand/favicon.png" rel="icon" type="image/png">
+        <link href="assets/img/brand/a-force-logo.png" rel="icon" type="image/png">
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
         <!-- Icons -->
@@ -230,7 +230,7 @@
                     <form method="post" action="InsertServlet">
                         <input type="text" name="id" class="inputbox" align="center" placeholder="Enter ID">
                         <input type="text" name="name" class="inputbox" placeholder="Enter name">
-                          <input type="submit" value="Insert Data" class="btn btn-info">
+                          <input type="submit" value="Update Data" class="btn btn-info">
                     </form>
                   </div>
             </div>

@@ -19,7 +19,7 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <!-- Favicon -->
-        <link href="assets/img/brand/favicon.png" rel="icon" type="image/png">
+        <link href="assets/img/brand/a-force-logo.png" rel="icon" type="image/png">
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
         <!-- Icons -->
@@ -31,19 +31,6 @@
     </head>
 <!--    <body>
         <h1>View All</h1>
-        
-
-        <%
-
-          dboperation dbop = new dboperation();
-          ResultSet rs = dbop.viewAllRecord();
-          while(rs.next()){
-              String id = rs.getString(1);
-              String name = rs.getString(2);
-              out.println("<tr><td>"+id+"</td> <td> "+name+"</td></tr><br>");
-          }
-   
-        %>
         
         <div>
             <a href="home.jsp">Go to Home Page</a>
@@ -241,13 +228,22 @@
                     </div>
                 </div>
                 <div class="row col-md-6 col-lg-3 mb-4 text-center" style="justify-content: center;">
-                    <form method="post" action="InsertServlet">
+                    <form>
                         <input type="text" name="id" class="inputbox" align="center" placeholder="Enter ID">
                         <input type="text" name="name" class="inputbox" placeholder="Enter name">
                           <input type="submit" value="Insert Data" class="btn btn-info">
                     </form>
                   </div>
             </div>
+            <%
+                dboperation dbop = new dboperation();
+                ResultSet rs = dbop.viewAllRecord();
+                while(rs.next()){
+                    String id = rs.getString(1);
+                    String name = rs.getString(2);
+                    out.println("<tr><td>"+id+"</td> <td> "+name+"</td></tr><br>");
+                }
+            %>
             <div class="row col-md-6 col-lg-3 mb-4 text-center" style="display: inline-block; margin-left: 400px">
                <p class="insert">${insertStatus}</p>
             </div>

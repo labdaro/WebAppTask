@@ -16,11 +16,11 @@
             }
         </style>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Insert Page</title>
+        <title>Delete Page</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <!-- Favicon -->
-        <link href="assets/img/brand/favicon.png" rel="icon" type="image/png">
+        <link href="assets/img/brand/a-force-logo.png" rel="icon" type="image/png">
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
         <!-- Icons -->
@@ -125,8 +125,8 @@
                     <i class="ni ni-tv-2 text-orange    "></i> About Us
                   </a>
                 </li>
-                <li class="nav-item  active ">
-                  <a class="nav-link active " href="insert.jsp">
+                <li class="nav-item">
+                  <a class="nav-link" href="insert.jsp">
                     <i class="ni ni-send text-orange"></i> Insert Data
                   </a>
                 </li>
@@ -135,8 +135,8 @@
                     <i class="ni ni-check-bold text-orange"></i> Update data
                   </a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link " href="delete.jsp">
+                <li class="nav-item active">
+                  <a class="nav-link active" href="delete.jsp">
                     <i class="ni ni-basket text-orange"></i> Delete data
                   </a>
                 </li>
@@ -227,19 +227,18 @@
                 <div style="text-align: center;">
                     <div class="col-lg-7 text-left" style="margin-left: 20px">
                         <h2 class="section-title mb-3" style="color: red; font-size: 28px">Data Deletion</h2>
-                        <h3 class="lead"> Insert Your Id and Name</h3>
+                        <h3 class="lead"> Insert Your ID</h3>
                     </div>
                 </div>
                 <div class="row col-md-6 col-lg-3 mb-4 text-center" style="justify-content: center;">
-                    <form method="post" action="InsertServlet">
+                    <form method="post" action="deleteServlet">
                         <input type="text" name="id" class="inputbox" align="center" placeholder="Enter ID">
-                        <input type="text" name="name" class="inputbox" placeholder="Enter name">
-                          <input type="submit" value="Insert Data" class="btn btn-info">
+                          <input type="submit" value="Delete Data" class="btn btn-info">
                     </form>
                   </div>
             </div>
             <div class="row col-md-6 col-lg-3 mb-4 text-center" style="display: inline-block; margin-left: 400px">
-               <p class="insert">${insertStatus}</p>
+               <p class="status">${status}</p>
             </div>
           </div>
         </div>

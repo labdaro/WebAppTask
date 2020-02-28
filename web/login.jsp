@@ -17,7 +17,7 @@
             Argon Dashboard - Free Dashboard for Bootstrap 4 by Creative Tim
         </title>
         <!-- Favicon -->
-        <link href="assets/img/brand/favicon.png" rel="icon" type="image/png">
+        <link href="assets/img/brand/a-force-logo.png" rel="icon" type="image/png">
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
         <!-- Icons -->
@@ -43,7 +43,7 @@
                         <div class="row">
                             <div class="col-6 collapse-brand">
                                 <a href="login.jsp">
-                                    <img src="assets/img/brand/blue.png">
+                                    <img src="assets/img/brand/a-force.png">
                                 </a>
                             </div>
                             <div class="col-6 collapse-close">
@@ -63,13 +63,13 @@
                             </a>
                         </li>-->
                         <li class="nav-item">
-                            <a class="nav-link nav-link-icon" href="../examples/register.html">
+                            <a class="nav-link nav-link-icon" href="signup.jsp">
                                 <i class="ni ni-circle-08"></i>
                                 <span class="nav-link-inner--text">Register</span>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link nav-link-icon" href="../examples/login.html">
+                            <a class="nav-link nav-link-icon" href="login.jsp">
                                 <i class="ni ni-key-25"></i>
                                 <span class="nav-link-inner--text">Login</span>
                             </a>
@@ -131,7 +131,7 @@
                                         <div class="input-group-prepend">
                                             <span class="input-group-text"><i class="ni ni-email-83"></i></span>
                                         </div>
-                                        <input class="form-control" name="username" placeholder="Username" type="email">
+                                        <input class="form-control" name="username" placeholder="Username" type="text">
                                     </div>
                                 </div>
                                 <div class="form-group">
@@ -142,15 +142,15 @@
                                         <input class="form-control" name="password" placeholder="Password" type="password">
                                     </div>
                                 </div>
+                                <p class="error">${error}</p>
                                 <div class="custom-control custom-control-alternative custom-checkbox">
                                     <input class="custom-control-input" id=" customCheckLogin" type="checkbox">
                                     <label class="custom-control-label" for=" customCheckLogin">
                                         <span class="text-muted">Remember me</span>
                                     </label>
                                 </div>
-                                <p class="error">${error}</p>
                                 <div class="text-center">
-                                    <button type="button" name="btn" class="btn btn-primary my-4">Sign in</button>
+                                    <input type="submit" name="btn" class="btn btn-primary my-4" value="Sign in"/>
                                 </div>
                             </form>
                         </div>

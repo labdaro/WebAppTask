@@ -13,7 +13,7 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <!-- Favicon -->
-        <link href="assets/img/bran d/favicon.png" rel="icon" type="image/png">
+        <link href="assets/img/bran d/a-force-logo.png" rel="icon" type="image/png">
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
         <!-- Icons -->
@@ -238,13 +238,13 @@
                     <form method="post" action="update">
                         <input type="text" name="id" class="inputbox" align="center" placeholder="Enter ID">
                         <input type="text" name="name" class="inputbox" placeholder="Enter new name">
-                          <input type="submit" value="Insert Data" class="btn btn-info">
+                          <input type="submit" value="Update Data" class="btn btn-info">
                     </form>
                   </div>
             </div>
             <div class="row col-md-6 col-lg-3 mb-4 text-center" style="display: inline-block; margin-left: 400px">
-                <h1 class="error">${error}</h1>
-                <h1 class="fail">${fail}</h1>
+                <p class="error">${error}</p></br>  
+                <p class="fail">${fail}</p>
             </div>
           </div>
         </div>
